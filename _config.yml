@@ -1,5 +1,29 @@
-title: Shambhu Bhandari Sharma
-logo: /assets/img/headshot_circle.png
-#description: text below image
-show_downloads: true
-theme: jekyll-theme-minimal
+# _config.yml
+
+# Site settings
+title: Your Site Title
+description: Your site description
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://shambhu.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Additional Sections
+sections:
+  - title: Home
+    url: /
+
+  - title: About
+    url: /about
+
+  - title: Publication
+    url: /publication
+
+  - title: Current Research
+    url: /research
+
+  - title: Gallery
+    url: /gallery
+
