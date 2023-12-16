@@ -1,14 +1,16 @@
 # _config.yml
 
 # Site settings
-title: Your Site Title
-description: Your site description
+title: Shaw Talebi
+logo: /assets/img/headshot_circle.png
+# description: text below image
+show_downloads: true
+theme: jekyll-theme-minimal
 baseurl: "" # the subpath of your site, e.g., /blog
 url: "https://shambhu.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: minima
 
 # Additional Sections
 sections:
@@ -26,4 +28,3 @@ sections:
 
   - title: Gallery
     url: /gallery
-
